@@ -1,0 +1,13 @@
+# Set the appropriate branding and URL for OKD
+kind: ConfigMap
+metadata:
+  name: console-config
+  namespace: openshift-config-managed
+data:
+  console-config.yaml: |
+    kind: Console
+    apiVersion: config.openshift.io/v1
+    spec:
+      customization:
+        branding: okd
+        documentationBaseURL: https://docs.okd.io/4.0/
