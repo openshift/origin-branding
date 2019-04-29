@@ -6,8 +6,8 @@ metadata:
   namespace: openshift-config-managed
 data:
   console-config.yaml: |
-    kind: ConsoleConfig
-    apiVersion: console.openshift.io/v1
+    kind: Console
+    apiVersion: config.openshift.io/v1
     customization:
       branding: okd
       documentationBaseURL: https://docs.okd.io/4.0/
