@@ -13,4 +13,4 @@ data:
     apiVersion: console.openshift.io/v1
     customization:
       branding: okd
-      documentationBaseURL: https://docs.okd.io/4.0/
+      documentationBaseURL: https://docs.okd.io/latest/
